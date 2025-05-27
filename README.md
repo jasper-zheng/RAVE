@@ -1,3 +1,8 @@
+Changed how `kaiser` is imported in `pqmf.py` so that it works with `SciPy > 1.10.0`.
+
+Followings are the official readme from [RAVE](https://github.com/acids-ircam/RAVE) acids-ircam
+==================================================
+
 ![rave_logo](docs/rave.png)
 
 # RAVE: Realtime Audio Variational autoEncoder
