@@ -7,8 +7,8 @@ import torch
 import torch.nn as nn
 from einops import rearrange
 from scipy.optimize import fmin
-from scipy.signal import firwin, kaiser, kaiser_beta, kaiserord
-
+from scipy.signal import firwin, kaiser_beta, kaiserord
+from scipy.signal.windows import kaiser
 
 def reverse_half(x):
     mask = torch.ones_like(x)
